@@ -8,7 +8,7 @@ pipeline{
     stages{
         stage("Welcome"){
             steps{
-                git credentialsId: 'github', url: 'https://github.com/Sonu97/javahometechclone'
+                git credentialsId: 'github', url: 'https://github.com/Sonu97/hello-world.git'
             }
         }   
         stage("Maven Build"){
